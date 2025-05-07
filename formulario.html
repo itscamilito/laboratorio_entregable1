@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <h1>FORMULARIO DE REGISTRO</h1>
+    <form>
+        <label>Nombre y Apellido:</label>
+        <input type="text" name="nombre" required>
+        <label>Correo Electrónico</label>
+        <input type="email" name="email" required>
+        <label>Celular:</label>
+        <input type="cel" name="telefono" maxlength="10" required>
+        <label>Mensaje:</label>
+        <textarea id="mensaje" rows="4"></textarea>
+        <label>País:</label>
+        <select required>
+            <option value=""disabled=""
+            selected="">SELECCIONA TU PAÍS:</option>
+            <option value="co">Colombia</option>
+            <option value="ve">Venezuela</option>
+            <option value="re">República Dominicana</option>
+            <option value="usa">Estados Unidos</option>
+            <option value="bra">Brasil</option>
+            <option value="esp">España</option>
+            <option value="mex">México</option>
+            <option value="arg">Argentina</option>
+        </select>
+        <input type="submit" name="" value="Enviar">    
+    </form>
+    <footer>
+        <hr><center>Tel-3216805285</center>
+        <center>&copy DERECHOS RESERVADOS CAMILO RUIDIAZ</center>
+    </footer>
+</body>
+</html>

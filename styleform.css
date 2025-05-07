@@ -1,0 +1,27 @@
+/*Estilo General del Cuerpo*/
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+    background-color: beige;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Estilo del encabezado*/
+h1{
+    color: black;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+label{
+    color: black;
+}
